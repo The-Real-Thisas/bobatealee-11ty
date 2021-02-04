@@ -1,0 +1,20 @@
+{
+  "title": "boba's site",
+  "url": "https://bobatealee.com/",
+  "description": "boba's site",
+  "feed": {
+    "subtitle": "This is my projects and stuff.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://bobatealee.com/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://bobatealee.com/feed/feed.json"
+  },
+  "author": {
+    "name": "bobatealee",
+    "email": "trashboyjet@gmail.com",
+    "url": "https://bobatealee.com"
+  }
+}

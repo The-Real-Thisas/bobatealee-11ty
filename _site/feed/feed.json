@@ -1,0 +1,37 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "boba&#39;s site",
+  "home_page_url": "https://bobatealee.com/",
+  "feed_url": "https://bobatealee.com/feed/feed.json",
+  "description": "boba&#39;s site",
+  "author": {
+    "name": "bobatealee",
+    "url": "https://bobatealee.com"
+  },
+  "items": [{
+      "id": "https://bobatealee.com/posts/omori-wiki/",
+      "url": "https://bobatealee.com/posts/omori-wiki/",
+      "title": "OMORI Wiki",
+      "content_html": "<p>A wiki for the game <a href=\"https://store.steampowered.com/app/1150690/OMORI/\">OMORI</a> (which you should buy), I whipped together all the css for the custom theming of the <a href=\"https://omori.wiki/\">site</a>.</p>\n<p><a href=\"https://omori.wiki/\"><img src=\"https://bobatealee.com/images/omori-wiki.png\" style=\"max-width: 100%\"></img></a></p>\n",
+      "date_published": "2021-01-01T00:00:00Z"
+    },{
+      "id": "https://bobatealee.com/posts/everybody-edits/",
+      "url": "https://bobatealee.com/posts/everybody-edits/",
+      "title": "Everybody Edits",
+      "content_html": "<p>I created a temporary page for the Adobe Flash game, Everybody Edits, to be used during its shutdown period.</p>\n<p><a href=\"https://everybodyedits.com/\"><img src=\"https://bobatealee.com/images/everybody-edits.png\" style=\"max-width: 100%\"></img></a></p>\n",
+      "date_published": "2021-01-01T00:00:00Z"
+    },{
+      "id": "https://bobatealee.com/posts/tf2-fix/",
+      "url": "https://bobatealee.com/posts/tf2-fix/",
+      "title": "Team Fortress 2 Webpage Fix",
+      "content_html": "<p><img src=\"https://1290779820.rsc.cdn77.org/background/team-fortress-2-636452942198091856.jpg\" style=\"max-width: 100%\"></img><br>\nMy first work, I <a href=\"https://steamcommunity.com/sharedfiles/filedetails/?id=2300928035\">fixed</a> <a href=\"https://steamcommunity.com/sharedfiles/filedetails/?id=2310335591\">many</a> <a href=\"https://steamcommunity.com/sharedfiles/filedetails/?id=2315904071\">pages</a> on the Team Fortress website to fix long-standing issues, as well as sprinkle in a few fun things.</p>\n<p><button href=\"https://steamcommunity.com/sharedfiles/filedetails/?id=2300928035\"><p>Changelog for fix</p></button></p>\n",
+      "date_published": "2020-01-01T00:00:00Z"
+    },{
+      "id": "https://bobatealee.com/posts/locked-and-reloaded/",
+      "url": "https://bobatealee.com/posts/locked-and-reloaded/",
+      "title": "Locked and Reloaded",
+      "content_html": "<p>A collaboration with Steam user <a href=\"https://steamcommunity.com/profiles/76561198045651005\">Rev</a>. I took provided concept images to make a page based on Rev's conceptual Team Fortress 2 update.</p>\n<p><a href=\"https://bobatealee.com/lockedandreloaded\"><img src=\"https://bobatealee.com/images/locked-and-reloaded.png\" style=\"max-width: 100%\"></img></a></p>\n",
+      "date_published": "2020-01-01T00:00:00Z"
+    }
+  ]
+}
