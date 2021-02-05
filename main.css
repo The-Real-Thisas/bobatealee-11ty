@@ -1,0 +1,212 @@
+/* body styling */
+body {
+    margin: 0;
+	background: linear-gradient(to bottom, #FFEAF8 30%, #DDFFD6, #CCE5FF);
+	height: 100%;
+}
+
+#boba-footer {
+	min-height: calc(100vh - 975px);
+}
+
+a {
+	color: #F7A0ED;
+} 
+
+/* title styling */
+
+a #boba-titleanim {
+	color: #FFFFFF;
+	text-decoration: none;
+} 
+
+#boba-titleanim {
+    white-space: nowrap;
+	padding-top: 10px;
+	font-size: 52px;
+	font-family: 'Quicksand', sans-serif;
+	font-style: italic;
+	color: #FFFFFF;
+	animation: boba-title 1s infinite alternate;
+	animation-timing-function: ease-in-out;
+	user-select: none;
+	-webkit-touch-callout: none; /* ios */
+	outline: 0;
+}
+
+.boba-space {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.boba-shaker {
+    display: inline-block;
+}
+
+#boba-shakeranim:hover {
+	animation: boba-shake .25s linear infinite alternate;
+}
+
+.boba-stroke {
+	position: relative;
+	background: transparent;
+	z-index: 0;
+	outline: 0;
+}
+
+.boba-stroke:before {
+	content: attr(dummy);
+	position: absolute;
+	-webkit-text-stroke: 4px #390066;
+    white-space: nowrap;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+
+/* textbox styling */
+.boba-content{
+	max-width: 1000px;
+	margin: auto;
+	height: 900px;
+}
+
+.boba-textbox{
+	margin:30px;
+	box-shadow: 4px 4px #390066;
+	border: solid 2px #390066;
+	width: 100%;
+	animation-timing-function: ease-in-out;
+}
+
+.boba-textboxtext {
+	padding: 4px;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+.boba-textboxheader{
+	background: #CCE5FF;
+	text-align: left;
+	color: #761ed6;
+	margin: auto;
+	padding-top: 2px;
+	height: 18px;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: bold;
+	font-family: 'Source Code Pro', monospace;
+	border-bottom: solid 2px #390066;
+}
+
+.boba-textboxspace {
+	padding-left: 4px; /* stupid, but necessary for textbox title */
+}
+
+#boba-textbox1 {
+	float: right;
+	margin-top: 50px;
+	max-width: 400px;
+	background: white;
+	animation: boba-textbox 2s infinite alternate;
+}
+
+#boba-textbox2 {
+	float: left;
+	margin-top: 120px;
+	max-width: 430px;
+	background: white;
+	animation: boba-textbox 2s infinite alternate;
+}
+
+#boba-textbox3 {
+	float: right;
+	margin-top: 250px;
+	width: 150px;
+	height: 170px;
+	background-image: url(images/observer.gif);
+	background-position: 0px 20px;
+	animation: boba-textbox 2s infinite alternate;
+}
+
+/* marquee styling */
+.boba-marquee {
+	font-family: 'Source Code Pro', monospace;
+	width: 100%;
+	color: #390066;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+	position: fixed;
+	bottom: 0px;
+}
+
+.boba-marquee p {
+    display: inline-block;
+    padding-left: 100%;
+    animation: boba-marquee 15s linear infinite;
+}
+
+/* anims */
+@keyframes boba-shake {
+	0% {
+		transform: translate(1px, 1px);
+	}
+	10% {
+		transform: translate(-1px, -1px);
+	}
+	20% {
+		transform: translate(-1px, 0px);
+	}
+	30% {
+		transform: translate(1px, 1px);
+	}
+	40% {
+		transform: translate(1px, -1px);
+	}
+	50% {
+		transform: translate(-1px, 1px);
+	}
+	60% {
+		transform: translate(-1px, 1px);
+	}
+	70% {
+		transform: translate(1px, 1px);
+	}
+	80% {
+		transform: translate(-1px, -1px);
+	}
+	90% {
+		transform: translate(1px, 1px);
+	}
+	100% {
+		transform: translate(1px, -1px);
+	}
+}
+
+@keyframes boba-title {
+	0% {
+		transform: translate(0px, 0px);
+	}
+	100% {
+		transform: translate(0px, 10px);
+	}
+}
+
+@keyframes boba-textbox {
+	0% {
+		transform: translate(0px, 0px);
+	}
+	100% {
+		transform: translate(0px, 5px);
+	}
+}
+
+@keyframes boba-marquee {
+    0% {
+		transform: translate(0, 0);
+	}
+    100% {
+		transform: translate(-100%, 0);
+	}
+}
